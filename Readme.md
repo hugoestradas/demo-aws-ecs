@@ -1,6 +1,8 @@
 # Terraform Demo
 
-An infrastructure is implemented in Terraform, with two availability zones, a container cluster is deployed in AWS ECS that allows the deployment of a .NET Core-based container that accesses a PostgreSQL database in the AWS RDS service. There are scaling rules, which allow scaling with 65% CPU or RAM usage, up to a maximum of 8 instances.
+An infrastructure is implemented in Terraform, with two availability zones, a container cluster is deployed in AWS ECS that allows the deployment of a .NET Core-based container that accesses a PostgreSQL database in the AWS RDS service. 
+
+There are scaling rules, which allow scaling with 65% CPU or RAM usage, up to a maximum of 8 instances.
 
 ![](img/diagram.png)
 
